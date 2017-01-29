@@ -1,0 +1,13 @@
+body {
+	background-color: gray;
+	text-align: center;
+}
+
+#list {
+	color: blue;
+	text-decoration: none;
+}
+
+#foodTotal {
+	color: green;
+}
