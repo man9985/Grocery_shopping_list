@@ -24,8 +24,7 @@ button.addEventListener('click', function () {
   var newUserFood = document.createElement("li");
   newUserFood.innerText += userFood + ": $" + userPrice;
   list.appendChild(newUserFood);
-  // total += userPrice;
-  total += parseFloat(userPrice, 10); //added this to make it work, whats this do?
+  total += parseFloat(userPrice);
   foodTotal.innerText = "Total: $" + total;
 });
 

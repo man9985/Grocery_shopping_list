@@ -5,7 +5,7 @@ body {
 
 #list {
 	color: blue;
-	text-decoration: none;
+	list-style: none;
 }
 
 #foodTotal {
