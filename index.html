@@ -3,22 +3,35 @@
 <head>
 	<title>Grocery List</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<h1>Grocery Shopping List</h1>
+<header>
+	<h1>
+		<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+			Grocery Shopping List
+		<i class="fa fa-shopping-cart fa-2x fa-flip-horizontal"></i>
+	</h1>	
+</header>
 
-<ul id="list">
-</ul>
+<main>
+	<form>
+		<input id="food" type="text" placeholder="Item" />
+		<input id="price" type="number" placeholder="Price" />
+  		<i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i>
+  		<input id="button" type="button"  value="Add Item" />
+	</form>
 
-<p><span id="foodTotal">Total: $9.00</span></p>
+	<ul id="list">
+	</ul>
 
-<form>
-	<input id="food" type="text" placeholder="food" />
-	<input id="price" type="text" placeholder="price"/>
-	<input id="button" type="button"  value="Add Item" />
-</form>
+	<div id="totalAmount">
+		<h2><span id="foodTotal">Total: $9</span></h2>
+	</div>
+
+</main>
 
 <script src="lab7.js"></script>
 </body>

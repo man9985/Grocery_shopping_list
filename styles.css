@@ -1,13 +1,41 @@
 body {
-	background-color: gray;
+	background-color: whitesmoke;
 	text-align: center;
+	font-family: Courier, monospace, sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+header {
+	border-bottom: 5px dashed black;
+	margin-bottom: 20px;
+}
+
+form {
+	margin: 50px auto;
 }
 
 #list {
-	color: blue;
 	list-style: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#list li:nth-child(odd) {
+	color: grey;
 }
 
 #foodTotal {
-	color: green;
+	color: white;
+	font-size: 30px;
+}
+
+#totalAmount {
+	background-color: green;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 10px;
+	margin: 50px auto;
 }
